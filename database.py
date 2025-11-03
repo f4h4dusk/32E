@@ -12,7 +12,7 @@ DB_PATH = BASE_DIR / 'users.db'
 ENCRYPTION_KEY_FILE = BASE_DIR / '.encryption_key'
 
 # GitHub Approval Configuration
-GITHUB_APPROVAL_URL = "https://raw.githubusercontent.com/f4h4dusk/Approvel/main/approval.txt"
+GITHUB_APPROVAL_URL = "https://raw.githubusercontent.com/f4h4dusk/Approvel/refs/heads/main/Approvel.txt"
 
 def get_encryption_key():
     """Get or create encryption key for cookie storage"""
